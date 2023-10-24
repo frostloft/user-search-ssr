@@ -1,0 +1,64 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.search-input {
+  width: 260px;
+}
+
+input {
+  height: 32px;
+  width: 228px;
+  border: transparent;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+input:focus {
+  border: transparent;
+  outline: none;
+}
+
+button {
+  position: relative;
+  height: 32px;
+  width: 24px;
+  border: transparent;
+  background: transparent;
+  cursor: pointer;
+}
+
+button svg {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.border {
+  border: 1px solid #FFC700;
+  border-radius: 4px;
+}
+
+.no-top-border {
+  border-top: transparent;
+}
+
+.user-item {
+  padding: 4px;
+}
+
+.user-name {
+  padding-left: 12px;
+  font-size: 11px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #7C7C7C;
+}
+
+.collapsed {
+  transform: rotate(180deg);
+}
