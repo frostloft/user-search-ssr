@@ -2,7 +2,7 @@
 
 - Vue3 + Options API;
 - Vite;
-- TypeScript.
+- JavaScript.
 
 Запуск проекта:
 ```sh
